@@ -1,0 +1,175 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    background:#cfdce6
+}
+
+hr {
+    background: #03396c;
+    width: 70%;
+}
+
+.home-wrapper {
+    box-shadow: 0 0 20px #000
+}
+
+.front-page {
+    height: vh;
+
+}
+
+.location {
+    color: #03396c;
+    font-size: 30pt;
+    text-align: center;
+    padding: 15px;
+}
+
+.weather-icon-temp-summary {
+    color: #03396c;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    border: 3pt solid #005b96	;
+    border-radius: 10pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-temp-summary {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.weather-icon {
+    box-sizing: border-box;
+    font-size: 175pt;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-temp {
+    box-sizing: border-box;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-size: 60pt;
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-summary {
+
+    font-size: 18pt;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.radar {
+    width: 100%;
+    height: 10%;
+}
+
+
+.weekly-forcast {
+    padding: 10px;
+    font-size: 18pt;
+    text-align: center;
+    color: #03396c;
+
+}
+
+.hourly-forcast {
+    box-sizing: border-box;
+    border: 3pt solid #005b96	;
+    border-radius: 10pt;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    font-size: 8px;
+}
+
+
+.hourly-forcast div {
+    color: #6497b1;
+    border-right: 1pt solid #005b96	;
+    border-left: 1pt solid #005b96	;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daily-forcast {
+    box-sizing: border-box;
+    border: 3pt solid #005b96;
+    border-radius: 10pt;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.daily-forcast div {
+    color: #6497b1;
+    border-right: 1pt solid #005b96	;
+    border-left: 1pt solid #005b96	;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daily-high-temp {
+    margin-bottom:-15px;
+}
+
+.title {
+    color: #03396c;
+    text-align:center;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+}
+
+.title2 {
+    margin-top:10px;
+}
+
+
+@media (min-width:800px) {
+    .home-wrapper {
+        width: 800px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+}

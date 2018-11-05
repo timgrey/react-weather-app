@@ -1,0 +1,24 @@
+{
+  "name": "react-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "heroku-postbuild": "cd build && npm install --only=dev && npm install && npm run build",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
